@@ -12,8 +12,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/jsonapi"
-	"github.com/olioapps/service-skeleton-go/olio/api"
-	"github.com/olioapps/service-skeleton-go/olio/util"
+	"github.com/Motiva-AI/service-skeleton-go/olio/api"
+	"github.com/Motiva-AI/service-skeleton-go/olio/util"
 )
 
 type BaseResource struct {

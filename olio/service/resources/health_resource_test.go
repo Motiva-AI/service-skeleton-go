@@ -9,8 +9,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/olioapps/service-skeleton-go/olio/extractors"
-	"github.com/olioapps/service-skeleton-go/olio/util"
+	"github.com/Motiva-AI/service-skeleton-go/olio/extractors"
+	"github.com/Motiva-AI/service-skeleton-go/olio/util"
 )
 
 type UptimeExtractor struct {
