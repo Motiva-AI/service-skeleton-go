@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 
 	"github.com/gin-gonic/gin"
-	"github.com/olioapps/service-skeleton-go/olio/common/models"
+	"github.com/Motiva-AI/service-skeleton-go/olio/common/models"
 	"golang.org/x/crypto/bcrypt"
 	jwt "gopkg.in/dgrijalva/jwt-go.v2"
 )
