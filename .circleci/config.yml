@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /go/src/github.com/olioapps/service-skeleton-go
+    working_directory: /go/src/github.com/Motiva-AI/service-skeleton-go
     docker:
       - image: circleci/golang:1.9
         environment:

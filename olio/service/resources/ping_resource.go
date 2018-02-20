@@ -3,7 +3,7 @@ package resources
 import (
 	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
-	"github.com/olioapps/service-skeleton-go/olio/service/middleware"
+	"github.com/Motiva-AI/service-skeleton-go/olio/service/middleware"
 )
 
 type PingResource struct {

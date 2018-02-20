@@ -9,7 +9,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 
 	"github.com/jinzhu/gorm"
-	"github.com/olioapps/service-skeleton-go/olio/extractors"
+	"github.com/Motiva-AI/service-skeleton-go/olio/extractors"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/olioapps/service-skeleton-go/olio/dao"
-	"github.com/olioapps/service-skeleton-go/olio/extractors"
-	"github.com/olioapps/service-skeleton-go/olio/models"
+	"github.com/Motiva-AI/service-skeleton-go/olio/dao"
+	"github.com/Motiva-AI/service-skeleton-go/olio/extractors"
+	"github.com/Motiva-AI/service-skeleton-go/olio/models"
 	log "github.com/sirupsen/logrus"
 )
 
