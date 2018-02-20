@@ -1,9 +1,9 @@
 package service
 
 import (
+	network "github.com/Motiva-AI/gin-webserver"
 	log "github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"
-	network "github.com/glibs/gin-webserver"
 	olioMiddleware "github.com/olioapps/service-skeleton-go/olio/service/middleware"
 	olioResources "github.com/olioapps/service-skeleton-go/olio/service/resources"
 	"github.com/olioapps/service-skeleton-go/olio/util"
