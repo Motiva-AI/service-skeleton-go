@@ -8,8 +8,8 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 
-	"github.com/jinzhu/gorm"
 	"github.com/Motiva-AI/service-skeleton-go/olio/extractors"
+	"github.com/jinzhu/gorm"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -65,7 +65,7 @@ func NewConnectionManager(dbExtractor extractors.DbExtractor) (*ConnectionManage
 	dbConnectionString := dbExtractor.ExtractConnectionString()
 	dialect := dbExtractor.ExtractDialect()
 
-	log.Info("Connecting to [", dbConnectionString, "], a [", dialect, "] database")
+	log.Debug("Connecting to [", dbConnectionString, "], a [", dialect, "] database")
 	db, err := connectionManager.createDb(string(dialect), dbConnectionString)
 	if err != nil {
 		return nil, err
